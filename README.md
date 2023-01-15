@@ -24,12 +24,12 @@ import java.util.Arrays;</p>
    public static void main(String[] args) {
       String[] myArray = new String[6];
 
-      myArray[0] = &quot;Mark Twain&quot;;
-      myArray[1] = &quot;Virginia Woolf&quot;;
-      myArray[2] = &quot;William Shakespeare&quot;;
-      myArray[3] = &quot;Maya Angelou&quot;;
-      myArray[4] = &quot;Charles Dickens&quot;;
-      myArray[5] = &quot;Agatha Christie&quot;;
+      myArray[0] =  "Mark Twain"';
+      myArray[1] = "Virginia Woolf";
+      myArray[2] = "William Shakespeare";
+      myArray[3] = "Maya Angelou";
+      myArray[4] = "Charles Dickens";
+      myArray[5] = "Agatha Christie";
  
       System.out.println(Arrays.toString(myArray));
 }
@@ -46,9 +46,8 @@ import java.util.Arrays;
 public class MyClass {
 public static void main(String[] args) {
 
-       String[] myArray = {&quot;Mark Twain&quot;, &quot;Virginia Woolf&quot;, 
-            &quot;William Shakespeare&quot;, &quot;Maya Angelou&quot;, 
-            &quot;Charles Dickens&quot;, &quot;Agatha Christie&quot;};
+       String[] myArray = {"Mark Twain&quot","Virginia Woolf&quot","William Shakespeare","Maya Angelou", 
+            "Charles Dicken","Agatha Christie"};
        
        System.out.println(Arrays.toString(myArray));
 }
